@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 const Homepage = () => {
 	const navigate = useNavigate();
 	const productNavigationButtonHandler = () => {
-		navigate("/products");
+		navigate("products");
 	}
 	return (
 		<>

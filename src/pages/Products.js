@@ -5,8 +5,8 @@ const Products = () => {
 		<>
 			<h1>The Products page</h1>
 			<ul>
-				<li><Link to="/products/laptop">Laptop</Link></li>
-				<li><Link to="/products/mobile">Mobile</Link></li>
+				<li><Link to="laptop">Laptop</Link></li>
+				<li><Link to="mobile">Mobile</Link></li>
 			</ul>
 		</>
 	)
