@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorPage from "./pages/Error";
 import Homepage from "./pages/Homepage";
+import ProductDetails from "./pages/ProductDetails";
 import Products from "./pages/Products";
 import Root from "./pages/Root";
 function App() {
@@ -12,7 +13,8 @@ function App() {
       errorElement: <ErrorPage />,
       children: [
         { path: "/", element: <Homepage /> },
-        { path: "/products", element: <Products /> }
+        { path: "/products", element: <Products /> },
+        { path: "/products/:id", element: <ProductDetails /> }
       ]
     },
   ]);
